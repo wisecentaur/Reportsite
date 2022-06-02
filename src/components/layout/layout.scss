@@ -1,0 +1,24 @@
+.layout {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+.headerComponent {
+    flex-grow: 0;
+}
+
+.sidebarComponent {
+    flex-grow: 0;
+}
+
+.childComponent {
+    flex-grow: 1;
+}

@@ -1,0 +1,43 @@
+.employee-content{
+    overflow: auto;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.EmployeeCard{
+    height: 230px;
+    width: 200px;
+}
+
+.EmployeeCardImage{
+    border-radius: 50px;
+    height: 100px;
+}
+
+.EmployeeCardLink{
+    font-size: 14px;
+    color: #ff9f1c;
+    text-decoration: none;
+    font-weight: 800;
+
+}
+
+div{
+    margin-top: 5px;
+} 
+
+.card__item p{
+    margin: 0;
+    font-size: 22;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.CardLink{
+    text-decoration: none;
+    color: #000;
+}

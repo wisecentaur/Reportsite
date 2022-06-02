@@ -1,0 +1,16 @@
+.adminpage{
+    display:flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.adminpage-categories{
+    width: 150px;
+    height: 100%;
+}
+
+.adminpage-content{
+    width: 100%;
+    height: 100%;
+    flex-grow: 1;
+}

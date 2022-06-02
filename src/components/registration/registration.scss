@@ -1,0 +1,55 @@
+.registrationCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    padding: 5% 0;
+    background-color: rgb(241, 239, 239);
+}
+
+.form__item{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 1% 0px;
+
+    input{
+        height: 35px;
+        width: 300px;
+        border: 0;
+        outline: none;
+        padding-left: 5%;
+        margin-top: 1%;
+        transition: .15s ease-in;
+    }
+    input:focus{
+        background-color: rgb(216, 216, 216);
+    }
+}
+.regButton{
+    height: 35px;
+    width: 150px;
+    background-color: #ffc15e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    margin-left: 5%;
+}
+.secButton{
+    background-color: inherit;
+    border: 2px solid #ffc15e;
+    border-radius: 5px;
+}
+
+
+.form__buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5%;
+    width: 100%;
+}

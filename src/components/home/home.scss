@@ -1,0 +1,38 @@
+.letters_and_graffic{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    height: 100%;
+    width: 100%;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+.fixed_component{
+    flex-grow: 0;
+    
+}
+.max_component{
+    flex-grow: 1;
+    
+}
+.letters_column{
+    width: 200px;
+}
+
+.phrase{
+    animation: Poyava 2s infinite ease-in-out;
+    // animation-delay: 0s;
+}
+
+@keyframes Poyava{
+    0%,to{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+}

@@ -1,0 +1,33 @@
+.Email{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+.EmailContent {
+    flex-grow: 3;
+}
+
+.EmailLetters {
+    flex-grow: 1;
+}
+
+.Click {
+    cursor: pointer;
+}
+
+.EmailContentHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.EmailContentTopic {
+    flex-grow: 1;
+}
+
+.selected {
+    background-color: silver;
+}

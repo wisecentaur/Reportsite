@@ -1,0 +1,9 @@
+$headerSpace: 15px;
+.header {
+    width: calc(100vw - ($headerSpace * 2));
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: $headerSpace;
+    border-bottom: 1px solid black;
+}
